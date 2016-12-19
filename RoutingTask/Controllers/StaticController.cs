@@ -16,7 +16,7 @@ namespace RoutingTask.Controllers
         {
             //VirtualPathData path = RouteTable.Routes.GetVirtualPath(null, new RouteValueDictionary(new { controller = "Kontroler", action = "Akcja", id = "12", parametr = "Bartek" }));
             return this.GetType().Name + ", " + System.Reflection.MethodBase.GetCurrentMethod().Name
-                + "<br>" + path.VirtualPath;
+                + "<br>";
         }
 
         public string About()
